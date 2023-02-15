@@ -1,12 +1,14 @@
-import InsectClass as ic
+import InsectClass as I
 
 
 def main():
-    ladybug = ic.Insect()
+    mosquito = I.Insect('mosquito',2,4)
+    housefly = I.Insect('housefly',2,4)
 
-    ladybug.toss()
+    mosquito.flight_length()
+    housefly.flight_length()
 
-    print("The length of Ladybug is going to fly is", ladybug.get())
+    print("The length of Ladybug is going to fly is", mosquito.get_miles())
 
 
 main()

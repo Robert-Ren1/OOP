@@ -8,8 +8,11 @@ class Insect:
         self.legs = 4
         self.flight = 0
 
-    def toss(self):
+    def flight_length(self):
         self.flight = random.randint(1, 10)
 
-    def get(self):
+    def get_miles(self):
         return self.flight
+    
+    def get_name(self):
+        return self.name
